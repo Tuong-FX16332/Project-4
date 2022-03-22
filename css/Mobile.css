@@ -1,0 +1,159 @@
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+body {
+    background-image: url("/image/Vietnamese\ Landscape.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    min-width: 350px;
+}
+nav div {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+    
+.nav_col {
+    position: relative;
+}
+  /*Mobile*/
+@media screen and (max-width: 767px) {
+    .dropbtn {
+        background-color: transparent;
+        color: white;
+        padding: 0;
+        font-size: 4vw;
+        border: none;
+        cursor: pointer;
+        position: static;
+        overflow: auto;
+    }
+    .dropdown-content {
+        display: none;
+        position: static;
+        background-color: transparent;
+        min-width: 200px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: #326080;
+    }
+      
+    .dropdown-content a {
+        color: aliceblue;
+        padding: 0;
+        text-decoration:none;
+        display: block;
+    }
+    .dropdown {
+        position: relative;
+        top: 10px;
+    }
+    .dropdown a:hover {background-color: #326080;}
+    .dropdown a {
+        text-transform: uppercase;
+        font-size: 3vw;
+    }
+    .show {display: block;}
+
+    nav h2 {
+        color: aliceblue;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 10px;
+        font-size: 5vw;
+    }
+    #tele-icon {
+        fill: aliceblue;
+        width: 4vw; 
+        height: 4vw;
+        position: absolute;
+        right:30%;
+        top: 18px;
+    }
+    #sdt {  
+        visibility: hidden;
+    }
+    main h1 {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: 5px 5px 10px black;
+        margin: 10% auto 5% auto;
+        font-size: 9vw;
+    }
+    main button {
+        display: block;
+        margin: 0 auto 20% auto;
+        color: aliceblue;
+        background-color: #326080;
+        border-radius: 20px;
+        width: 50%;
+        height: auto;
+        font-size: 4vw;
+    }
+    footer h3 {
+        color: aliceblue;
+        text-align: center;
+        font-size: 4vw;
+        font-style: oblique;
+        margin-bottom: 0;
+    }
+    .f-img {
+        width: 80%;
+        margin: 5% 10%;
+        padding: 5%;
+        transition: transform 1s;
+    }
+     .f-img:hover{
+        transform: scale(1.2);
+    }
+    .famous-place {
+        position: relative;
+    }
+    .famous-location {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .location-txt1 {
+        color: aliceblue;
+        font-size: 6vw;
+        text-shadow: 5px 5px 10px black;  
+        text-align: center;  
+        margin-bottom: 7%;
+    }
+    .location-txt2 {
+        color: aliceblue;
+        font-size: 4vw;
+        text-shadow: 5px 5px 10px black;
+        text-align: center;
+    }
+    .location-btn {
+        display: block;
+        margin: 0 auto;
+        color: aliceblue;
+        background-color: #326080;
+        border-radius: 20px;
+        font-size: 5vw;
+        opacity: 0.5;
+    }
+    .location-btn:hover {
+        opacity: 1;
+    } 
+}

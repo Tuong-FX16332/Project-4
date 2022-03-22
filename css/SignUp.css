@@ -1,0 +1,54 @@
+    body {
+        min-width: 350px;
+        background-image: url("/image/Background.jpg");
+    }
+
+    #wrap{
+        position: relative;
+        top: 80px;
+    }
+    h1{
+        color:lightseagreen;
+        font-size:40px;
+        font-weight:bold;
+    }
+    h4 {
+        color: lightseagreen;
+    }
+    #bd {
+        color: lightseagreen;
+    }
+    .sex {
+        color: lightseagreen;
+    }
+    .signup-btn {
+      background: #79bc64;
+      border-radius: 4px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      border: solid #3b6e22  1px;
+      text-decoration: none;
+    }
+    
+    .signup-btn:hover {
+      background: #79bc64;
+      text-decoration: none;
+    }
+    .navbar-default .navbar-brand{
+            color:#fff;
+            font-size:30px;
+            font-weight:bold;
+        }
+    .form .form-control { margin-bottom: 10px; }
+    @media (min-width:768px) {
+        #home{
+            margin-top:50px;
+        }
+        #home .slogan{
+            color: #0e385f;
+            line-height: 29px;
+            font-weight:bold;
+        }
+    }
