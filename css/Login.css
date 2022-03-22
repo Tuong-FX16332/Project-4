@@ -3,7 +3,7 @@
   body {
     font-family: "Poppins", sans-serif;
     height: 100vh;
-    background-image: url("/image/Background.jpg");
+    background-image: url("../image/Background.jpg");
     min-width: 350px;
   }
   
