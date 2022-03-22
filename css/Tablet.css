@@ -65,7 +65,8 @@
         text-align: center;
         text-shadow: 5px 5px 10px black;
         margin: 15% auto 5% auto;
-        font-size: 60px;
+        font-size: 70px;
+        font-family: 'VT323', monospace;
     }
     main button {
         display: block;

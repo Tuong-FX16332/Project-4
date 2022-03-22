@@ -72,8 +72,9 @@
         text-transform: uppercase;
         text-align: center;
         text-shadow: 5px 5px 10px black;
-        margin: 12% auto 7% auto;
-        font-size: 70px;
+        margin: 10% auto 5% auto;
+        font-size: 100px;
+        font-family: 'VT323', monospace;
     }
     main button {
         display: block;
